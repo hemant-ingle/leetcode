@@ -1,6 +1,6 @@
 # Leetcode - SQL 50
 | S.No. | Question | Status | Difficulty | Remarks | Solution |
-| ----- | -------- | ------ | ---------- | ------- | -------- |
+| :---: | -------- | :----: | :--------: | ------- | -------- |
 | 1. | [**1757. Recyclable and Low Fat Products**](https://leetcode.com/problems/recyclable-and-low-fat-products/description/?envType=study-plan-v2&envId=top-sql-50) | :white_check_mark: | :star: | | <details> <summary>Click to view solution :eyes:</summary><pre><code>select product_id from products where low_fats='Y' and recyclable='Y';<code><pre></details> |
 | 2. | [**584. Find Customer Referee**](https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50) | :white_check_mark: | :star: | :star_struck: - [Postgres - Comparison Functions and Operators](https://www.postgresql.org/docs/current/functions-comparison.html#:~:text=datatype%20IS%20DISTINCT%20FROM%20datatype%20%E2%86%92,f%20(rather%20than%20NULL)) | <details> <summary>Click to view solution :eyes:</summary><pre><code>select name from customer where referee_id is distinct from 2;<code><pre></details> |
 | 3. | [**595. Big Countries**](https://leetcode.com/problems/big-countries/description/?envType=study-plan-v2&envId=top-sql-50) | :white_check_mark: | :star: | | <details> <summary>Click to view solution :eyes:</summary><pre><code>select name, population, area from world where area >= 3000000 or population>=25000000;<code><pre></details> |
