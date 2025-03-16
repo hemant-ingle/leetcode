@@ -1,4 +1,4 @@
-# Leetcode - SQL 50
+[# Leetcode - SQL 50](https://leetcode.com/studyplan/top-sql-50/)
 | S.No. | Question | Status | Difficulty | Remarks | Solution |
 | :---: | -------- | :----: | :--------: | ------- | -------- |
 | 1. | [**1757. Recyclable and Low Fat Products**](https://leetcode.com/problems/recyclable-and-low-fat-products/description/?envType=study-plan-v2&envId=top-sql-50) | :white_check_mark: | :star: | | <details> <summary>Click to view solution :eyes:</summary><pre><code>select product_id from products where low_fats='Y' and recyclable='Y';<code><pre></details> |
