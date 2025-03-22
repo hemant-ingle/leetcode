@@ -36,7 +36,8 @@ INSERT INTO sales (sales_date, sales_amount, employee_id, region) VALUES
 
 ### Scenario 1:
 ```sql
-select *, sum(sales_amount) over (partition by extract(month from sales_date) order by extract(day from sales_date) asc) from sales data;
+select *, sum(sales_amount) over (partition by extract(month from sales_date) order by extract(day from sales_date) asc) 
+from sales data;
 ```
 | id <br> [PK] integer | sales_date <br> date | sales_amount <br> numeric | employee_id <br> integer | region <br> character varying (50) | sum <br> numeric |
 | -------------------- | -------------------- | ------------------------- | ------------------------ | ---------------------------------- | ---------------- |
