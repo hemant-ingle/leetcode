@@ -17,6 +17,7 @@ INSERT INTO sales (sales_date, sales_amount, employee_id, region) VALUES
 ('2024-04-01', 400, 1, 'North'),
 ('2024-04-05', 450, 2, 'South'),
 ('2024-05-01', 500, 3, 'West');
+```
 
 ### Table Data (select * from sales):
 | id | sales_date | sales_amount | employee_id | region |
