@@ -1,11 +1,11 @@
 # Window Function
 
-### Create Table (sales):
+## Create Table (sales):
 ```sql
 CREATE TABLE sales (id SERIAL PRIMARY KEY, sales_date DATE, sales_amount DECIMAL, employee_id INT, region VARCHAR(50));
 ```
 
-### Insert Data:
+## Insert Data:
 ```sql
 INSERT INTO sales (sales_date, sales_amount, employee_id, region) VALUES 
 ('2024-01-01', 100, 1, 'North'), 
@@ -19,7 +19,7 @@ INSERT INTO sales (sales_date, sales_amount, employee_id, region) VALUES
 ('2024-05-01', 500, 3, 'West');
 ```
 
-### Table Data (select * from sales):
+## Table Data (select * from sales):
 | id <br> [PK] integer | sales_date <br> date | sales_amount <br> numeric | employee_id <br> integer | region <br> character varying (50) |
 | -------------------- | -------------------- | ------------------------- | ------------------------ | ---------------------------------- |
 | 1 | 2024-01-01 | 100 | 1 | North |
@@ -31,3 +31,23 @@ INSERT INTO sales (sales_date, sales_amount, employee_id, region) VALUES
 | 7 | 2024-04-01 | 400 | 1 | North |
 | 8 | 2024-04-05 | 450 | 2 | South |
 | 9 | 2024-05-01 | 500 | 3 | West |
+
+## Different scenarios of window function:
+
+### Scenario 1:
+```sql
+select *, sum(sales_amount) over (partition by extract(month from sales_date) order by extract(day from sales_date) asc) from sales data;
+```
+| id <br> [PK] integer | sales_date <br> date | sales_amount <br> numeric | employee_id <br> integer | region <br> character varying (50) | sum <br> numeric |
+| -------------------- | -------------------- | ------------------------- | ------------------------ | ---------------------------------- | ---------------- |
+| 1 | 2024-01-01 | 100 | 1 | North | 100 |
+| 2 | 2024-01-05 | 150 | 2 | South | 250 |
+| 3 | 2024-02-01 | 200 | 1 | North | 200 |
+| 4 | 2024-02-10 | 250 | 3 | West | 450 |
+| 5 | 2024-03-01 | 300 | 2 | South | 300 |
+| 6 | 2024-03-10 | 350 | 3 | West | 650 |
+| 7 | 2024-04-01 | 400 | 1 | North | 400 |
+| 8 | 2024-04-05 | 450 | 2 | South | 850 |
+| 9 | 2024-05-01 | 500 | 3 | West | 500 |
+
+ 
