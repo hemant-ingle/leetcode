@@ -120,7 +120,7 @@ select *, sum(sales_amount) over (order by extract(day from sales_date) desc) fr
 ```sql
 select *, sum(sales_amount) over () from sales;
 ```
-| id \ [PK] integer | sales_date <br> date | sales_amount <br> numeric | employee_id <br> integer | region <br> character varying (50) | sum <br> numeric |
+| id <br> [PK] integer | sales_date <br> date | sales_amount <br> numeric | employee_id <br> integer | region <br> character varying (50) | sum <br> numeric |
 | -------------------- | -------------------- | ------------------------- | ------------------------ | ---------------------------------- | ---------------- |
 | 1 | 2024-01-01 | 100 | 1 | North | 2700 |
 | 2 | 2024-01-05 | 150 | 2 | South | 2700 |
