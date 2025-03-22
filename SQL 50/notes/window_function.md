@@ -20,7 +20,7 @@ INSERT INTO sales (sales_date, sales_amount, employee_id, region) VALUES
 ```
 
 ### Table Data (select * from sales):
-| id\n[PK] integer | sales_date | sales_amount | employee_id | region |
+| id <br> [PK] integer | sales_date | sales_amount | employee_id | region |
 | -- | ---------- | ------------ | ----------- | ------ |
 | 1 | 2024-01-01 | 100 | 1 | North |
 | 2 | 2024-01-05 | 150 | 2 | South |
