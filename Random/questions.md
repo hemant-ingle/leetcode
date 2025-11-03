@@ -6,3 +6,4 @@
 | 3. | [**3. Longest Substring Without Repeating Characters**](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/3/3.md) [:link:](solutions/3/3a.md) | |
 | 4. | [**4. Median of Two Sorted Arrays**](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | :white_check_mark: | :star::star::star: | | [:link:](solutions/4/4.md) | |
 | 5. | [**36. Valid Sudoku**](https://leetcode.com/problems/valid-sudoku/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/5/5.md) | |
+| 6. | [**11. Container With Most Water**](https://leetcode.com/problems/container-with-most-water/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/6/6.md) | |
