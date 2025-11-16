@@ -9,3 +9,4 @@
 | 6. | [**11. Container With Most Water**](https://leetcode.com/problems/container-with-most-water/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/6/6.md) | |
 | 7. | [**6. Zigzag Conversion**](https://leetcode.com/problems/zigzag-conversion/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/7/7.md) | |
 | 8. | [**17. Letter Combinations of a Phone Number**](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/8/8.md) | |
+| 9. | [**146. LRU Cache**](https://leetcode.com/problems/lru-cache/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/9/9.md) | |
