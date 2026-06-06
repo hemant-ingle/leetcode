@@ -12,3 +12,5 @@
 | 9. | [**146. LRU Cache**](https://leetcode.com/problems/lru-cache/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/9/9.md) | |
 | 10. | [**513. Find Bottom Left Tree Value**](https://leetcode.com/problems/find-bottom-left-tree-value/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/10/10.md) | |
 | 11. | [**2574. Left and Right Sum Differences**](https://leetcode.com/problems/left-and-right-sum-differences/description/) | :white_check_mark: | :star: | | [:link:](solutions/11/11.md) | |
+| 12. | [**2075. Decode the Slanted Ciphertext**](https://leetcode.com/problems/decode-the-slanted-ciphertext/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/12/12.md) | |
+
