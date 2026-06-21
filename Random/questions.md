@@ -14,3 +14,4 @@
 | 11. | [**2574. Left and Right Sum Differences**](https://leetcode.com/problems/left-and-right-sum-differences/description/) | :white_check_mark: | :star: | | [:link:](solutions/11/11.md) | |
 | 12. | [**2075. Decode the Slanted Ciphertext**](https://leetcode.com/problems/decode-the-slanted-ciphertext/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/12/12.md) | |
 | 13. | [**704. Binary Search**](https://leetcode.com/problems/binary-search/description/) | :white_check_mark: | :star: | | [:link:](solutions/13/13.md) | |
+| 14. | [**35. Search Insert Position**](https://leetcode.com/problems/search-insert-position/description/) | :white_check_mark: | :star: | | [:link:](solutions/14/14.md) | |
