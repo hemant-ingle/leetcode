@@ -1,5 +1,3 @@
-**Time Complexity:** *O(max(n, m)),* **Space Complexity:** *O(max(n, m)).*
-```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +27,3 @@ public:
         return r;
     }
 };
-```
