@@ -15,3 +15,4 @@
 | 12. | [**2075. Decode the Slanted Ciphertext**](https://leetcode.com/problems/decode-the-slanted-ciphertext/description/) | :white_check_mark: | :star::star: | | [:link:](solutions/12/12.md) | |
 | 13. | [**704. Binary Search**](https://leetcode.com/problems/binary-search/description/) | :white_check_mark: | :star: | | [:link:](solutions/13/13.md) | |
 | 14. | [**35. Search Insert Position**](https://leetcode.com/problems/search-insert-position/description/) | :white_check_mark: | :star: | | [:link:](solutions/14/14.md) | |
+| 15. | [**23. Merge K Sorted Lists**](https://leetcode.com/problems/merge-k-sorted-lists/description/) | :white_check_mark: | :star::star::star: | | [:link:](solutions/23.merge_k_sorted_lists/sol.md) | |
